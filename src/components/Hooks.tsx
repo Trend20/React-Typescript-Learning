@@ -25,7 +25,7 @@ const Hooks = ({name, age, isMarried}: hooksProps): JSX.Element => {
   const [patient, setPatient] = useState<User>({} as User);
 
   // USECALLBACK HOOK
-  
+
 
   // handling count increment
   const handleIncrement = ():void =>{
@@ -41,5 +41,4 @@ const Hooks = ({name, age, isMarried}: hooksProps): JSX.Element => {
     </div>
   )
 }
-
 export default Hooks;
